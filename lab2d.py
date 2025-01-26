@@ -7,6 +7,6 @@ if len(sys.argv) !=3:
     sys.exit(0)
 
 name = sys.argv[1]
-age = int(sys.argv[2])
+age = (sys.argv[2])
 
 print('Hi ' + name + ', you are ' + str(age) + ' years old.')
